@@ -1,4 +1,5 @@
 # Racer
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/dmapper/racer?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Racer is a realtime model synchronization engine for Node.js. By leveraging [ShareJS](http://sharejs.org/), multiple users can interact with the same data in realtime via Operational Transformation, a sophisticated conflict resolution algorithm that works in realtime and with offline clients. ShareJS also supports PubSub across multiple servers for horizontal scaling. Clients can express data subscriptions and fetches in terms of queries and specific documents, so different clients can be subscribed to different overlapping sets of data. On top of this sophisticated backend, Racer provides a simple model and event interface for writing application logic.
 
